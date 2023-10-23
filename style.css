@@ -1,0 +1,93 @@
+body {
+
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+
+}
+
+.website-name {
+
+    font-weight: bold;
+    margin-left: 100px;
+
+}
+
+.login-container {
+
+    text-align: center;
+    border: 1px solid #cccccc9a;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+    margin: 100px;
+
+}
+
+.login-container h2 {
+
+    margin-bottom: 20px;
+
+}
+
+.input-group {
+
+    margin-bottom: 15px;
+
+}
+
+.input-group input {
+
+    width: 300px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.input-group input[type="submit"],
+.input-group .create-account {
+
+    cursor: pointer;
+    width: 320px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.input-group input[type="submit"] {
+
+    background-color: rgb(25, 104, 250);
+    color: white;
+
+}
+
+.input-group input[type="submit"]:hover {
+
+    background-color: rgb(25, 104, 250, 0.926);
+    color: white;
+
+}
+
+.input-group .create-account {
+
+    background: #45a049;
+    color: white;
+
+}
+
+.input-group .create-account:hover {
+
+    background-color: #45a049ed;
+
+}
